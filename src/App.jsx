@@ -1,12 +1,12 @@
 import './App.css'
-import { GlobalDataProvider } from './contextApi'
-import { Home } from './contextApi/Home'
+import { UseReducer } from './usrReducer/useReducer'
 
 export const App = () => {
   return (
-    <GlobalDataProvider>
-      <Home />
-    </GlobalDataProvider>
+    // <GlobalDataProvider>
+    //   <Home />
+    // </GlobalDataProvider>
+    <UseReducer />
   )
 }
 

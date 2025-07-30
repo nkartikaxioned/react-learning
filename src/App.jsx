@@ -1,12 +1,12 @@
 import './App.css'
-import { ParentComponent } from './Memo/UseMemo'
+import { UseCallback } from './Memo/UseCallback'
 
 export const App = () => {
   return (
     // <GlobalDataProvider>
     //   <Home />
     // </GlobalDataProvider>
-    <ParentComponent />
+    <UseCallback />
   )
 }
 

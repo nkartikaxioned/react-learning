@@ -1,12 +1,12 @@
 import './App.css'
-import { ReactMemo } from './Memo/ReactMemo'
+import { ParentComponent } from './Memo/UseMemo'
 
 export const App = () => {
   return (
     // <GlobalDataProvider>
     //   <Home />
     // </GlobalDataProvider>
-    <ReactMemo />
+    <ParentComponent />
   )
 }
 

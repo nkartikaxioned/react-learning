@@ -1,12 +1,12 @@
 import './App.css'
-import { UseReducer } from './usrReducer/useReducer'
+import { ReactMemo } from './ReactMemo/ReactMemo'
 
 export const App = () => {
   return (
     // <GlobalDataProvider>
     //   <Home />
     // </GlobalDataProvider>
-    <UseReducer />
+    <ReactMemo />
   )
 }
 

@@ -1,5 +1,5 @@
 import './App.css'
-import { ReactMemo } from './ReactMemo/ReactMemo'
+import { ReactMemo } from './Memo/ReactMemo'
 
 export const App = () => {
   return (
